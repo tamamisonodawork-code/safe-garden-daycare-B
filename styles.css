@@ -807,3 +807,65 @@ body.lightbox-open {
     font-size: 1.05rem;
   }
 }
+
+
+/* ==============================
+   Clickable availability notice
+   ============================== */
+#contact {
+  scroll-margin-top: 92px;
+}
+
+.availability-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform .18s ease,
+    background-color .18s ease,
+    border-color .18s ease,
+    box-shadow .18s ease,
+    color .18s ease;
+}
+
+.availability-link::after {
+  content: "Join the waiting list →";
+  display: block;
+  margin-top: 6px;
+  color: var(--green);
+  font-size: .84rem;
+  font-weight: 900;
+}
+
+.availability-link:hover {
+  background: #e7f1df;
+  border-color: rgba(79, 127, 49, .42);
+  box-shadow: 0 12px 30px rgba(49, 85, 34, .12);
+  transform: translateY(-1px);
+}
+
+.availability-link:active {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: #fff;
+  transform: scale(.985);
+}
+
+.availability-link:active::after {
+  color: #fff;
+}
+
+.availability-link:focus-visible {
+  outline: 3px solid rgba(255, 107, 43, .55);
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  .availability-link:hover {
+    transform: none;
+  }
+
+  .availability-link:active {
+    transform: scale(.985);
+  }
+}
