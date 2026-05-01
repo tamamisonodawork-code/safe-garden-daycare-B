@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive" />
+  <title>Safe Garden Home Daycare</title>
+  <meta name="description" content="Licensed home daycare with small group care, daily parent updates, subsidy support, and a waiting list for future openings." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Safe Garden Home Daycare">
+      <span class="brand-icon">♡</span>
+      <span class="brand-text">
+        <strong>Safe Garden</strong>
+        <small>Home Daycare</small>
+      </span>
+    </a>
+    <a class="header-link" href="#contact">Waiting List</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media">
+        <img class="zoomable" src="images/hero.jpg" alt="Chonon helping children with a play-based activity">
+      </div>
+
+      <div class="hero-content">
+        <a class="availability availability-link" href="#contact" aria-label="We are currently full. Join the waiting list form.">
+          As of <span id="availability-date">April 30, 2026</span>, we are currently full.
+          Families are welcome to join our waiting list.
+        </a>
+
+        <p class="eyebrow">Licensed home daycare</p>
+        <h1>Caring for your child <span>like family.</span></h1>
+        <p class="lead">
+          A warm, small-group home daycare where children feel safe, loved, and supported through routine, play, and daily connection.
+        </p>
+
+        <div class="cta-stack">
+          <a class="button primary" href="#contact">Join the Waiting List</a>
+          <a class="button secondary" href="tel:+17788589465">Call</a>
+        </div>
+
+        <p class="soft-note">Breakfast & snacks provided • Lunch from home • Daily Lillio updates</p>
+      </div>
+    </section>
+
+    <section class="quick-trust" aria-label="Key trust points">
+      <article>
+        <span>✓</span>
+        <strong>Licensed</strong>
+        <small>Regulated home daycare</small>
+      </article>
+      <article>
+        <span>$</span>
+        <strong>Subsidy</strong>
+        <small>Government support available</small>
+      </article>
+      <article>
+        <span>📱</span>
+        <strong>Daily Updates</strong>
+        <small>Lillio parent app reports</small>
+      </article>
+    </section>
+
+
+    <section class="info-strip" aria-label="Daycare information">
+      <article>
+        <span>📍</span>
+        <div>
+          <strong>606 Denton Street</strong>
+          <small>Coquitlam, BC</small>
+        </div>
+      </article>
+      <article>
+        <span>🕘</span>
+        <div>
+          <strong>Mon – Fri</strong>
+          <small>7:30 AM – 5:00 PM</small>
+        </div>
+      </article>
+      <article>
+        <span>☎</span>
+        <div>
+          <strong><a href="tel:+17788589465">778 858 9465</a></strong>
+          <small><a href="mailto:Safegardendaycare@gmail.com">Safegardendaycare@gmail.com</a></small>
+        </div>
+      </article>
+      <article>
+        <span>🍽</span>
+        <div>
+          <strong>Breakfast & Snacks Provided</strong>
+          <small>Lunch from home</small>
+        </div>
+      </article>
+    </section>
+
+    <section class="section subsidy">
+      <div class="section-copy">
+        <p class="eyebrow">Government support</p>
+        <h2>Affordable childcare with subsidy support.</h2>
+        <p>Eligible families may receive government subsidy support, helping make quality childcare more accessible.</p>
+      </div>
+      <a class="button outline" href="#contact">Ask About Subsidy</a>
+    </section>
+
+    <section id="about" class="section about">
+      <img class="zoomable" src="images/chonon.jpg" alt="Chonon, caregiver at Safe Garden Home Daycare">
+      <div>
+        <p class="eyebrow">Meet Chonon</p>
+        <h2>A caregiver who feels like family.</h2>
+        <p>Hi, I’m Chonon. I provide a warm, safe, and nurturing home daycare where every child is cared for with love, patience, and respect.</p>
+        <p>Occasional support from a trusted assistant caregiver may be available when needed.</p>
+      </div>
+    </section>
+
+    <section class="section app-section">
+      <div>
+        <p class="eyebrow">Parent app</p>
+        <h2>Stay connected every day.</h2>
+        <p>Receive daily updates through Lillio, including photos, meals, naps, activities, and special moments.</p>
+      </div>
+      <img class="zoomable" src="images/app.jpg" alt="Lillio app screen">
+    </section>
+
+    <section id="day" class="section day">
+      <div class="center">
+        <p class="eyebrow">A day with us</p>
+        <h2>A calm routine for healthy growth.</h2>
+        <p class="section-lead">Breakfast, outdoor play, learning, rest, creative activities, and a 5:00 PM close.</p>
+      </div>
+
+      <div class="timeline">
+        <article><span>🍽</span><time>7:30 AM</time><h3>Welcome & Breakfast</h3><p>A warm welcome with a healthy breakfast to start the day.</p></article>
+        <article><span>📖</span><time>9:00 AM</time><h3>Learning & Activities</h3><p>Reading, experiments, crafts, and play-based learning.</p></article>
+        <article class="featured"><span>🌳</span><time>10:00 AM</time><h3>Outdoor Play</h3><p>Fresh air, nature exploration, and active play.</p></article>
+        <article><span>🍱</span><time>11:30 AM</time><h3>Lunch from Home</h3><p>Children enjoy lunch brought from home.</p></article>
+        <article><span>🌙</span><time>12:30 PM</time><h3>Rest Time</h3><p>Quiet time to rest and recharge.</p></article>
+        <article class="featured"><span>🎵</span><time>3:00 PM</time><h3>Creative Play & Movement</h3><p>Crafts, dancing, music, and fun group activities.</p></article>
+        <article><span>🏡</span><time>5:00 PM</time><h3>Goodbye</h3><p>We close at 5:00 PM to support a calm routine.</p></article>
+      </div>
+    </section>
+
+    <section id="activities" class="section activities">
+      <div class="center">
+        <p class="eyebrow">Play-based learning</p>
+        <h2>Activities that help children grow.</h2>
+        <p class="section-lead">Balanced movement, creativity, discovery, language, and social play.</p>
+      </div>
+
+      <div class="activity-grid">
+        <article class="activity-card important"><span>🌳</span><small>Daily Movement</small><h3>Indoor & Outdoor Play</h3><p>Active play and outdoor time for healthy growth.</p></article>
+        <article class="activity-card"><span>🧪</span><small>Curiosity</small><h3>Little Science</h3><p>Safe experiments that encourage observation and discovery.</p></article>
+        <article class="activity-card"><span>✂️</span><small>Creativity</small><h3>Art & Crafts</h3><p>Hands-on projects that build confidence and fine motor skills.</p></article>
+        <article class="activity-card"><span>📚</span><small>Language</small><h3>Story Time</h3><p>Books and calm moments that support early language.</p></article>
+        <article class="activity-card important"><span>🎵</span><small>Movement</small><h3>Dance & Music</h3><p>Rhythm, movement, and joyful self-expression.</p></article>
+        <article class="activity-card important"><span>🤝</span><small>Friendship</small><h3>Social Play</h3><p>Sharing, teamwork, and friendships in a small group.</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="center">
+        <p class="eyebrow">Real moments</p>
+        <h2>Warm care, real connection.</h2>
+      </div>
+      <div class="photo-grid">
+        <img class="zoomable" src="images/moment-play.jpg" alt="Children playing indoors">
+        <img class="zoomable" src="images/moment-learning.jpg" alt="Children learning with Chonon">
+        <img class="zoomable" src="images/moment-social.jpg" alt="Children in a small group activity">
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews">
+      <div class="center">
+        <p class="eyebrow">Parent reviews</p>
+        <h2>Trusted by families.</h2>
+      </div>
+      <div class="review-grid">
+        <article><div>★★★★★</div><p>“Chonon is amazing. My child feels safe, happy, and loved every day.”</p><strong>— Parent Review</strong></article>
+        <article><div>★★★★★</div><p>“A warm home daycare with a loving atmosphere. We always felt comfortable.”</p><strong>— Parent Review</strong></article>
+        <article><div>★★★★★</div><p>“The daily app updates gave us peace of mind while our child was away.”</p><strong>— Parent Review</strong></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Waiting list open</p>
+        <h2>Join the waiting list for the next available spot.</h2>
+        <p>We are currently full, but families are welcome to submit their information and we’ll contact you when a spot becomes available.</p>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <select name="inquiry-type" aria-label="Inquiry type">
+          <option>Join the waiting list</option>
+          <option>Ask about subsidy</option>
+          <option>Ask about availability</option>
+        </select>
+        <input type="text" name="parent-name" placeholder="Parent Name" autocomplete="name">
+        <input type="email" name="email" placeholder="Email Address" autocomplete="email">
+        <input type="tel" name="phone" placeholder="Phone Number" autocomplete="tel">
+        <input type="text" name="child-age" placeholder="Child’s Age">
+        <input type="text" name="start-date" placeholder="Interested Start Date">
+        <textarea name="message" rows="5" placeholder="Message"></textarea>
+        <button class="button primary" type="submit">Join the Waiting List</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>606 Denton Street, Coquitlam, BC</span>
+    <span>Mon – Fri · 7:30 AM – 5:00 PM</span>
+    <span>Breakfast & Snacks Provided · Lunch from home</span>
+    <a href="mailto:Safegardendaycare@gmail.com">Safegardendaycare@gmail.com</a>
+    <a href="tel:+17788589465">778 858 9465</a>
+  </footer>
+
+  <div class="mobile-bar">
+    <a href="tel:+17788589465">Call</a>
+    <a href="#contact">Waiting List</a>
+  </div>
+
+
+  <div class="lightbox" id="image-lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close image preview">×</button>
+    <img src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
