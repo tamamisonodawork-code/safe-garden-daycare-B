@@ -1,4 +1,4 @@
-Safe Garden Home Daycare LP
+Safe Garden Mobile-Pro LP
 
 Included:
 - index.html
@@ -7,9 +7,14 @@ Included:
 - images/
 
 Notes:
-- noindex/nofollow is already included.
-- script.js auto-updates the availability date.
-- If there is no waiting list later, edit/remove:
-  1. .availability-note in the hero
-  2. .cta-subtext under the main CTA
-  3. Waiting list wording in the contact section
+- noindex/nofollow is included.
+- Mobile-first design.
+- Waiting list date auto-updates with JavaScript.
+- Illustrations that looked AI/awkward were removed and replaced with cleaner icon cards.
+
+
+Interactive updates:
+- Buttons now have hover/tap color changes.
+- Buttons include a subtle ripple effect.
+- Main images can be clicked/tapped to open a larger preview.
+- Lightbox closes with X, outside click, or Escape key.
