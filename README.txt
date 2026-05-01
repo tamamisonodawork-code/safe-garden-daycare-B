@@ -26,3 +26,9 @@ Info added:
 - 778 858 9465
 - Safegardendaycare@gmail.com
 - Breakfast & Snacks Provided / Lunch from home
+
+
+Clickable availability update:
+- The availability/waiting-list notice is now an anchor link to #contact.
+- CSS adds hover/active/focus states and a small "Join the waiting list" cue.
+- No JavaScript was needed for the jump; HTML anchor + CSS styling handles it.
