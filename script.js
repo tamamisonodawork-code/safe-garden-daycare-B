@@ -11,14 +11,15 @@
   });
 })();
 
-
-// Button tap feedback + ripple effect.
+// Button/tap feedback.
 (function () {
-  const pressables = document.querySelectorAll(".button, .header-link, .mobile-bar a");
+  const pressables = document.querySelectorAll(".button, .header-link, .mobile-bar a, .availability-link");
 
   pressables.forEach((el) => {
     el.addEventListener("pointerdown", (event) => {
       el.classList.add("is-pressed");
+
+      if (!el.classList.contains("button") && !el.classList.contains("header-link") && !el.closest(".mobile-bar")) return;
 
       const ripple = document.createElement("span");
       ripple.className = "ripple";
@@ -39,7 +40,7 @@
   });
 })();
 
-// Image lightbox: tap/click images to enlarge.
+// Image lightbox.
 (function () {
   const lightbox = document.getElementById("image-lightbox");
   if (!lightbox) return;
@@ -54,7 +55,6 @@
     lightbox.classList.add("is-open");
     lightbox.setAttribute("aria-hidden", "false");
     document.body.classList.add("lightbox-open");
-    closeBtn.focus({ preventScroll: true });
   }
 
   function closeLightbox() {
@@ -71,10 +71,7 @@
   zoomables.forEach((img) => {
     img.setAttribute("tabindex", "0");
     img.setAttribute("role", "button");
-    img.setAttribute("aria-label", `${img.alt || "Image"} - open larger view`);
-
     img.addEventListener("click", () => openLightbox(img));
-
     img.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
@@ -84,11 +81,9 @@
   });
 
   closeBtn.addEventListener("click", closeLightbox);
-
   lightbox.addEventListener("click", (event) => {
     if (event.target === lightbox) closeLightbox();
   });
-
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
       closeLightbox();
